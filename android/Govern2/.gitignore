@@ -8,3 +8,6 @@
 /captures
 .externalNativeBuild
 /.idea
+/library/build
+/library/captures
+/library/.idea
