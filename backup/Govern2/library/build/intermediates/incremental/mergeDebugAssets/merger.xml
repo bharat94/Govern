@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/src/main/assets"/><source path="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/src/debug/assets"/></dataSet></merger>

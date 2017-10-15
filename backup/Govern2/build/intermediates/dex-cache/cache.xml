@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_789507e0eec6bd22e69c33fef34bbe3a231f7791/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c3cafc121d40e440ab974fbb9e8f964b2bedd524/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e1185bdde08224bf1275f6b4f9771df5e738e1b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_01ffeb76405b02d57068c14bd82744ce166ebb01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/e5e858aeb035ea49cfd62fb22deca6da2633aee0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ffaaaacebca3a20b8d9dc77b4ce33932d22fe6c">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f886bc661064602138250977f1b129bbf84e865c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0df749305b17817a23dc1f6ed5431a06a60ba0e7">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d1ac38657d45bcdcd234b808235374e6bc14330d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/b22a02d085faa1cf4fbb4325350ec4a743763e86/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48fe715b1ee9f4c8c7899d0eddcfa8d27f7287e5">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7e7c9ce1c9dbb9b8a10727cacce838801e8a1e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/312b980ef5edd8203542721f5d2f6fc0269b679e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c27d4039cebb3953f29ec0324964b502d8e08f0">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0033cc8ceb08ea27440c8a3fa9046082e55e3589/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b68a849722b44f584e2d68c451c5e3844c10380">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.2_44af0aea2546806f56a34e379e50937ed1b55fff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/b05776915e4a63531f761d15868c8d60ab32dd4d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="52339832d252da4328c5ffcacbc205268346362a">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58816571b2df324c1dd9c8535952019e4bde0390/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/51bdb06512b790a312c70cbcc6261197293070cc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a2e3af3ba505e08e408a3846f8ab9f014b334e4">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c7b81f950c1e429eab24c30e9875c0da77dc42b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c307e84b4179182ce735828049a71ddd9189aa00/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a5423d080755901cc399daa76490ee65820e75fb">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6137a2995160da0b7d520d3a6278c7c52d8c651/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/4f10f0ef77bff4bc000afb0b9bcee65134009e83/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcad7c07d9caebc6384ccdf24214d4484193d116/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/5bfdab1426af7c80494bdbca497ed5c8745d8010/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4efed89c18cda5bbc2309efe84bb4b67e1ef239">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1ae0a134931a694eb3f22e9181421ca1df1686bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/714e80762ae0ed4a5dd81cdefff9e5688ca6fd86/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a4eaaebbf8013af99511a48371f8cef06025960">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7db39393395410bf3241939917a3ae17a03dd8da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/0f7e83474f674c460fad6425304efbce9a9bcfe2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2caf054cbb4752700babedbfd1a4d74145c91f77">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b63a9ba8e48c95ec611085f453414a0ef69919b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="48a969b476c5c4bd8cabfe295428ff222bc68b8e">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_33f6fd569fd6181aec57326793fb75e9d15a8df8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="138b5e3a5341bb37117b13f327de68f81f9f0669">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b945952e8f3d3d24298d924734d95a83697ad0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/6f73f26fa9f5bdbab7564ab7c369fe68a8adcd7f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18da012dae25653123d00a4231b24a41ad4e0fa3">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a4455b48898ae0649908548492ffce9553816dcd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/82b1c516fda3fb9d690ecac8c57fff3f13cce860/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="160b1bf46034e2627970e148a29c9f57744fc75d">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_015cb7db4e91497ee1117f0b8297fffd955b53d1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/adf54186980c232ce80cfeadab7ad48164523496/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aaf163ac652b3e984a2a5b23e5676631ec833d00">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b84bc8bef4e43e76bce84bf29f0a4a72dfab18b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/e966be327fb05b05c5b3e31d9277bc1908c2b8e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f1054add84f2844e5a809ef162c2a1a3fe81718">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bf68e6a2fd5f4bef5647d5949f9c7a9866833961/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/2f80f6740e2579502651412f528341054a6e5bb8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c7e735784c9853573e457db7a841ab4a35c41ee7">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_17f0c892336845c8ed35ca50e5c7d9f7c5e83fd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/ab85edb1bd467d61d5c2930730ab6128cf3229a3/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c4a5fe00c1a8c2f64d175cd055140b133ca6700">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40c2f659ecbf3299cf23e2b3970d6ca944c3a350/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/2d053c8b1ee299007a62e572d9f7ae9e0a068690/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6555c483abcdcc71ef5f1d47bb1ff3fee35ef1b2">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b9a2aa5eb591cd27a6966ace49cb5e65eb90b06f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/3c81ab24337a332ce5d687e0c8b0ec426f404cc9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_da0417e497ae0f1aca1ef3bfe3cdbadc8c44651b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/cc2781311fc570848b087f83444b5d5a5a8779b2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="782d63e5456a49596ef322036691e25c60de3b83">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3991adcabe6fa71cf15e0bc307cb88bb38f0d09/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/0cff3d1bc027f6989e835f817683c694bc2f0392/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f552156e824f318819b664ab932f61d12cfa2f4">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93e0b1b7de13ecebe3359cc3b21b6b957e1e54d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/389de0a54acd58b5d9bf5900b8c0d70264734f66/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bd6a3b6e3c7c584a47479070fb9292a6c7468657">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2fee1593700b113534c8c46cc54b0cc086037c1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/d97972f78a88af62698098199c4ab6b8ff2668a1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44f4b8f303198bd2f7d06371e8cbaa19087e48e1">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2978676bdc35340ee7bd90f7ee7955c5d2a8bc26/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/0f52690410e2b547bb4dfcfd86fffe1563ecdccd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0bf29bec75663606599495649d7c953c29848e97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/749f9271c015e202dff84dc68c3e9e8011c668e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3e9e9012a78b511275f0882e125bf2e7d35a1c34">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1718a812d5e02c10a65b2e3dac87750b0b0ce41b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/cda322f7f7b4662d04596bec9b35bdb59521263c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f1aed7a5811b8700106be0286ac8e440e07ceeeb">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_79a48d32412d3f50c95aeb67f31708b8ff4a105e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/0e550935fb7735467f68214fe513440a79adfb9a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e10d2ecf4103a530c37e09a3b0312c4a87d03052">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_280b665c4545a474558e2d8c149ed2e790af23ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c0ce0e8efb88e076cbfdaf104d8027b1edbc0409/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd6d3fb99e7cd1191421ec9383244afd676dbb22">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_effd86ce05d6d2134ed4d82630f494f4a9629f1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/dbeced5d7e211d734b3c2eeee700f30d2ddd729b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_904afe846e3a490bd54c2d58f07d1f2b75b4d763/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/3b746db4d4e03e4cded016a3b6ceb92cbebf584c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0fe52eb7a638724583586c86887461f772edf6c6">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_dbda9e58cc0d09126daf67313e337dbd36d0a9bd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/a45d82494443ec694b858e5f6e969a8ee12fcdf0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="00d8b1db49c6b3ccb71dcc6468faf0d7c5f1824c">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56a529c053dbc0c6c08942640a54e71ff5809dbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/73da93875dd3f895f040cfe229a9973d5724862a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b35c8ab6d85de164256d78c4e413f9eb34b7ee1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/6fba27560227d763f07306d29b80924e916e18e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4e569cfe2d772b2e4d8f1e8c462e6c33e165ad88">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6cfd07251038c8fbd66fb1ad26a2d1c84454d464/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/4d67f6e1b8b8da5605964d807cf821998d1a4939/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e33867220c2341ab3e4d8fff98bdad1a6eb29237/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/8b9ea50bf0183db7197391f1043ccbcb265e4fa8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="14c499bb24fa932e0bc049050b382813ee331c4e">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d046ca4143d4d61c5f38948dd64c39c61c147924/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/91271d8beb01bf7248ccf8fe71112d2f351be96a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca61ba7a2ef86a116fad1b436e857b24698efd0c">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f9eb2833a5bafb3e09efcb2f0a69d01d0837c00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/2a94cf155f7b04a316b0fccb2fe7dbe65ff9b464/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="003f59e51b07a10a2a7a0bd33c9eb0393c33b502">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5340d0b8ec4d95b2ec3bfda8c0a75dbe301f6544/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/69234ba1c9115dbc8f92c5036772ad78ef61e292/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a61b17471888f61cba0f413a87d24ee2c4b993b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_55cd8d265b26621b9063569c4440f0074477a104/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/1f358d7f49dc3f008cd2fd0231279785f550f8ed/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de3eb4bc4882f8d87039e7d742a6095ce4730cff">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2daddac09450f181095c061743fca528daadd01c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/22a509fa0b3646c2fae70650b6c383656113f7ce/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="97fb40924e83775c91374180494801cb022aa008">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_660953ec0dc95be20f9dafdb66d6aca95e5847c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/8e1c6e5fc1fbb34ae01230e5dd3eb689c9eec1b9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_acae370bdebe117c7a2c51bd1e6cb366bad997e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/fe949c7100e16ebf50a04087bbbe33a4b61ef3af/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10dbb8222677f14ba8066935201ef0a4913e57eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/61fe5dbef2693bd737b78711721ebbb3a4c35fac/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eef44a34be1eef845ecb4072e3692b434af05ad4">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9be3034349e97ebf84aaa4abe655d4c1b6804429/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/a5c3ecefa17ed0d6f77314003184b09464528ebc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f39d408dff17f5627212dacd35261a22d6a89541">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0167190cbc1b106dc56dc677593fc7288da84036/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/d97992a01cc26fde70f126312910e6a02367c306/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f9f219b8a8acc35922ab06f4ff29769041481b4b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9d1abd495a9e506f31382012a2409a627af03180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/229234ce7e4d4b79d9af315adaae02415d671c81/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e57811edcf98c8efc8db63a03f7e07116abfde1a">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a6c06f2e9ca0ee1f41b47d09577fe11911c8bb99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/19f528c556748dc6e0f43f9d2bf7aab3171cdcb2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4a446c110c5a9f3a62907367d5eea4d4062c36a">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3d7a6f93c84fc5e8d5cb84964d11d3f3ae151c8e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/9a72d302e78fc6cac387a34e89929efa61c67c55/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e9aa99885516ec1d75eb555dfb10b568675d980">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5aa7c743a9aac787aa8b9d0d008429ea2f5eaede/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/e5d62dc85b271648a1b5d12864d294dbf4303e79/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0674c4ebc74c075da5ae877715cc8ed56a72f75">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_edb8f05dd7d083d0fbe92981c10f3c46e199f58d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/6719dec2179d3e4a43f51a43d845f96759d67fb8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9be5e957849eb82ad9addf9bdb2896de8bf5654b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_71234256b3ddca90e59aef6c823b42571c0f1743/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/58e64e6f9a92d80328bcc16d114fc3258ea8f0a5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_42f21f1b5dce6b02bd07b0d44d9d1625ec70962f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94d358351559620a2c3d2ba3ac04d03a59a61bb3">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ca04d514934f417f7380e33bf9219cc512e9b1c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/e8d77afd47c92b3214c194058f25f3f4e88a772c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e36f9efacfe41041bd2570e285ed2c49c96ba9c">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aaba80b7d5e5ad87c2d3199bd2a266a1c8555551/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c229684dbf95ce9ef1ade2a6942186f500cda48a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af13a350b71b437ebf4be335d02a8f785c39b111">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_acd320b53fb6f5799fb09d994fb842f68c52e204/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/8faaeaac65b66ea69ec49598b5d12b110c631179/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94b44f23de9606682e771f8a74dc69aff3b4e6be">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_12b01bf0dd1611175954f52078d4a5da02d84179/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/c72c788d22d062fab52b0cabb86a819e6a06b7cb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ae9f49918eed062ee1d8a53ec69cc30ab8efc45">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5c744adab9d7657782fcabd12bbc4196fbc47ae0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/6880c50865d74fa296a32305f3b32c83f68bb3f7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5a7844b9a6afb902f506d858871b7f5442d9f93e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/vaidhyanathannarayanan/.android/build-cache/43bed302990e2e6c449afaa667c2c3a0227368eb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d342436108515394ac10ce878ffd9b8f867101b">
+        <dex dex="/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5da5c28ddc8485110f8d0e6d26509e170236177d/classes.dex" />
+    </item>
+
+</items>
