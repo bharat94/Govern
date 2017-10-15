@@ -17,6 +17,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+
+import android.widget.Button;
+import android.widget.ExpandableListView;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -42,6 +45,7 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -74,6 +78,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     private DatabaseReference mDatabase;
 
+    ExpandableListAdapter listAdapter;
+    ExpandableListView expListView;
+    List<String> listDataHeader;
+    HashMap<String, List<String>> listDataChild;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,6 +97,17 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
+
+        // get the listview
+        expListView = (ExpandableListView) findViewById(R.id.lvExp);
+
+        // preparing list data
+        prepareListData();
+
+        listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
+
+        // setting list adapter
+        expListView.setAdapter(listAdapter);
 
         // Boilerplate code to get the location from the phone
         // Construct a GeoDataClient.
@@ -206,6 +226,44 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
+    /*
+     * Preparing the list data
+     */
+    private void prepareListData() {
+        listDataHeader = new ArrayList<String>();
+        listDataChild = new HashMap<String, List<String>>();
+
+        // Adding child data
+        listDataHeader.add("Boylston");
+        listDataHeader.add("Fenway");
+        listDataHeader.add("Mission main");
+
+        // Adding child data
+        List<String> top250 = new ArrayList<String>();
+        top250.add("Verve is super epensive");
+        top250.add("WHy is Gay bar always crowded");
+        top250.add("Dominos is not a good place at night");
+        top250.add("Tasty Burgeris no more tasty");
+
+
+        List<String> nowShowing = new ArrayList<String>();
+        nowShowing.add("Fenway park only has ducks");
+        nowShowing.add("Artificial Fenway pond has no water");
+        nowShowing.add("Ducks");
+        nowShowing.add("Park drive is shitty");
+        nowShowing.add("Thaitation sucks");
+
+        List<String> comingSoon = new ArrayList<String>();
+        comingSoon.add("Mission main");
+        comingSoon.add("Too many gun shots");
+        comingSoon.add("Probably you'll die junction");
+        comingSoon.add("cannot see city from city view apartments");
+        comingSoon.add("Too safe in the night");
+
+        listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
+        listDataChild.put(listDataHeader.get(1), nowShowing);
+        listDataChild.put(listDataHeader.get(2), comingSoon);
+    }
 
     private void getLocationPermission() {
     /*

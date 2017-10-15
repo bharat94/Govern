@@ -33,12 +33,27 @@
                 tools:context="govern.ny.hack.edu.govern.MapActivity" />
             </LinearLayout>
 
-        <TextView
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:gravity="center|top"
-            android:text="The Sliding Up Panel"
-            android:textSize="16sp" />
+            android:orientation="vertical"
+            android:background="#f4f4f4" >
+            <TextView
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:paddingLeft="10dp"
+                android:layout_width="match_parent"
+                android:text="List of all the places goverend by me"
+                android:layout_height="wrap_content"
+                />
+            <ExpandableListView
+                android:id="@+id/lvExp"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
     </com.sothree.slidinguppanel.SlidingUpPanelLayout>
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
