@@ -279,31 +279,26 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         listDataChild = new HashMap<String, List<String>>();
 
         // Adding child data
-        listDataHeader.add("Boylston");
-        listDataHeader.add("Fenway");
-        listDataHeader.add("Mission main");
+        listDataHeader.add("Upper East Manhattan");
+        listDataHeader.add("Central Park");
+        listDataHeader.add("Columbia University");
 
         // Adding child data
         List<String> top250 = new ArrayList<String>();
-        top250.add("Verve is super epensive");
-        top250.add("WHy is Gay bar always crowded");
-        top250.add("Dominos is not a good place at night");
-        top250.add("Tasty Burgeris no more tasty");
+        top250.add("Lampost on West 120th St");
+        top250.add("Ensure consruction safety on sidewalk");
+
 
 
         List<String> nowShowing = new ArrayList<String>();
-        nowShowing.add("Fenway park only has ducks");
-        nowShowing.add("Artificial Fenway pond has no water");
-        nowShowing.add("Ducks");
-        nowShowing.add("Park drive is shitty");
-        nowShowing.add("Thaitation sucks");
+        nowShowing.add("Park is not clean");
+        nowShowing.add("Eve teasing");
+        nowShowing.add("Poor condition of benches");
 
         List<String> comingSoon = new ArrayList<String>();
-        comingSoon.add("Mission main");
-        comingSoon.add("Too many gun shots");
-        comingSoon.add("Probably you'll die junction");
-        comingSoon.add("cannot see city from city view apartments");
-        comingSoon.add("Too safe in the night");
+        comingSoon.add("Street lamp issue");
+        comingSoon.add("Navigation signs are not clear");
+        comingSoon.add("Premises are not clean");
 
         listDataChild.put(listDataHeader.get(0), top250); // Header, Child data
         listDataChild.put(listDataHeader.get(1), nowShowing);
