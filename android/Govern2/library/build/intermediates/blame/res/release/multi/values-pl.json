@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pl/values-pl.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 100,
+                    "endOffset": 151
+                },
+                "from": {
+                    "file": "/Users/atripathi/.android/build-cache/c7c64f2c7eeb771d75cad2747f931ce75c4c90af/output/res/values-pl/values-pl.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            }
+        ]
+    }
+]
