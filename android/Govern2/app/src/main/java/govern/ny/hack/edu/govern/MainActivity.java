@@ -1,5 +1,7 @@
 package govern.ny.hack.edu.govern;
 
+import android.app.Fragment;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -14,7 +16,6 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.firebase.ui.auth.AuthUI;
@@ -40,7 +41,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import butterknife.Unbinder;
+
+public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, ReportDialogFragment.ReportEditTextListener {
 
 
     private FirebaseAuth mFirebaseauth;
@@ -58,6 +63,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     LatLng mDefaultLocation;
     float DEFAULT_ZOOM = 14.0f;
     List<LatLng> latLngList = new ArrayList<LatLng>();
+    private Unbinder bind;
 
 
     @Override
@@ -86,7 +92,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         updateLocationUI();
 
 
-
         mAuthstateListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
@@ -113,6 +118,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
             }
         };
+        bind = ButterKnife.bind(this);
     }
 
     @Override
@@ -157,8 +163,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onResume();
         mFirebaseauth.addAuthStateListener(mAuthstateListener);
     }
-
-
 
 
     /**
@@ -240,7 +244,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 mLastKnownLocation = null;
                 getLocationPermission();
             }
-        } catch (SecurityException e)  {
+        } catch (SecurityException e) {
             Log.e("Exception: %s", e.getMessage());
         }
     }
@@ -273,26 +277,26 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     }
                 });
             }
-        } catch(SecurityException e)  {
+        } catch (SecurityException e) {
             Log.e("Exception: %s", e.getMessage());
         }
     }
 
-    private void zoomInAddMarker(GoogleMap map, LatLng latLng){
+    private void zoomInAddMarker(GoogleMap map, LatLng latLng) {
         map.addMarker(new MarkerOptions().position(latLng)
                 .title("Your Position"));
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, DEFAULT_ZOOM));
     }
 
 
-    private void getGovernorList(){
+    private void getGovernorList() {
         // TODO HTTP get request here
         // call back should call populateGovernorList with the new list here
-        if(this.mLastKnownLocation!=null)
+        if (this.mLastKnownLocation != null)
             populateGovernorList(new ArrayList<LatLng>());
     }
 
-    private void populateGovernorList(List<LatLng> fetchedList){
+    private void populateGovernorList(List<LatLng> fetchedList) {
         // Using a mock list of governor lat longs
         // start Mock
         fetchedList = new ArrayList<LatLng>();
@@ -311,15 +315,34 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
 
-    private void updateMapUI(){
-        for(LatLng latLng : this.latLngList){
+    private void updateMapUI() {
+        for (LatLng latLng : this.latLngList) {
             Circle circle = mMap.addCircle(new CircleOptions()
-                    .center(new LatLng(this.mLastKnownLocation.getLatitude()+ latLng.latitude,
-                            this.mLastKnownLocation.getLongitude()+ latLng.longitude))
+                    .center(new LatLng(this.mLastKnownLocation.getLatitude() + latLng.latitude,
+                            this.mLastKnownLocation.getLongitude() + latLng.longitude))
                     .radius(10000)
                     .strokeColor(Color.argb(180, 0, 0, 255))
                     .fillColor(Color.argb(70, 0, 0, 255)));
         }
     }
 
+    @Override
+    public void onFinishReportDialog(String value) {
+        Toast.makeText(MainActivity.this, "Submit clicked", Toast.LENGTH_SHORT).show();
+    }
+
+    @OnClick(R.id.material_design_floating_action_menu_item2)
+    public void onReportSelected(View view) {
+        //Toast.makeText(MainActivity.this, "Report Text", Toast.LENGTH_SHORT).show();
+        FragmentTransaction ft = getFragmentManager().beginTransaction();
+        Fragment prev = getFragmentManager().findFragmentByTag("dialog");
+        if (prev != null) {
+            ft.remove(prev);
+        }
+        ft.addToBackStack(null);
+
+        // Create and show the dialog.
+        ReportDialogFragment newFragment = ReportDialogFragment.newInstance(mLastKnownLocation.getLatitude(), mLastKnownLocation.getLongitude());
+        newFragment.show(ft,"dialog");
+    }
 }
