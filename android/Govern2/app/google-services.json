@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739301481153",
+    "firebase_url": "https://govern-cc654.firebaseio.com",
+    "project_id": "govern-cc654",
+    "storage_bucket": "govern-cc654.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739301481153:android:6910030e95361833",
+        "android_client_info": {
+          "package_name": "govern.ny.hack.edu.govern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739301481153-fc932vlctniu3q0te9k5refo421kdq5m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "govern.ny.hack.edu.govern",
+            "certificate_hash": "94b542863b00e52d887ef3d7a7c2764b12b0b43c"
+          }
+        },
+        {
+          "client_id": "739301481153-aq0i9trnboskid004hj1gd7pb7gt181j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCF2jHzIm3Ejp2OiFC27qEfSYEBTrTa_7o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739301481153-aq0i9trnboskid004hj1gd7pb7gt181j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
