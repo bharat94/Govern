@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 182
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 271
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 342
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 400
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 473
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 547
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 2938
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 3006
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 3078
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 3148
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 3209
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 3268
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 3316
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 3372
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 3447
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -315,7 +315,7 @@
                     "endOffset": 3523
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -334,7 +334,7 @@
                     "endOffset": 3595
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -353,7 +353,7 @@
                     "endOffset": 3656
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
@@ -372,7 +372,7 @@
                     "endOffset": 3717
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -391,7 +391,7 @@
                     "endOffset": 3779
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -410,7 +410,7 @@
                     "endOffset": 3843
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -429,7 +429,7 @@
                     "endOffset": 3905
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
@@ -448,7 +448,7 @@
                     "endOffset": 3966
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
@@ -467,7 +467,7 @@
                     "endOffset": 4034
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -486,7 +486,7 @@
                     "endOffset": 4134
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
@@ -505,7 +505,7 @@
                     "endOffset": 4194
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -524,7 +524,7 @@
                     "endOffset": 4260
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 33,
                         "startColumn": 4,
@@ -543,7 +543,7 @@
                     "endOffset": 4333
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 34,
                         "startColumn": 4,
@@ -562,7 +562,7 @@
                     "endOffset": 4402
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 35,
                         "startColumn": 4,
@@ -581,7 +581,7 @@
                     "endOffset": 4459
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 4511
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -619,7 +619,7 @@
                     "endOffset": 4573
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -638,7 +638,7 @@
                     "endOffset": 4645
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -657,7 +657,7 @@
                     "endOffset": 4721
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -676,7 +676,7 @@
                     "endOffset": 4787
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/7c41b7469ec9e9ad43d6c35730a866bce056b6c2/output/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -695,7 +695,7 @@
                     "endOffset": 4822
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 41,
                         "startColumn": 4,
@@ -714,7 +714,7 @@
                     "endOffset": 4857
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -733,7 +733,7 @@
                     "endOffset": 4891
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 43,
                         "startColumn": 4,
@@ -752,7 +752,7 @@
                     "endOffset": 4926
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -771,7 +771,7 @@
                     "endOffset": 4961
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -790,7 +790,7 @@
                     "endOffset": 5021
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -809,7 +809,7 @@
                     "endOffset": 5091
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -828,7 +828,7 @@
                     "endOffset": 5162
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 47,
                         "startColumn": 4,
@@ -847,7 +847,7 @@
                     "endOffset": 5279
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -867,7 +867,7 @@
                     "endOffset": 5480
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 49,
                         "startColumn": 4,
@@ -887,7 +887,7 @@
                     "endOffset": 5546
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -906,7 +906,7 @@
                     "endOffset": 5656
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 53,
                         "startColumn": 4,
@@ -925,7 +925,7 @@
                     "endOffset": 5778
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -944,7 +944,7 @@
                     "endOffset": 5839
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -964,7 +964,7 @@
                     "endOffset": 6040
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -984,7 +984,7 @@
                     "endOffset": 6106
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1003,7 +1003,7 @@
                     "endOffset": 6235
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -1022,7 +1022,7 @@
                     "endOffset": 6302
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-media-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/2c5748d2db1b8e38564a34928506dde425fb18b7/output/res/values/values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1041,7 +1041,7 @@
                     "endOffset": 6374
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 59,
                         "startColumn": 4,
@@ -1060,7 +1060,7 @@
                     "endOffset": 6441
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values/values.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values/values.xml",
                     "position": {
                         "startLine": 60,
                         "startColumn": 4,

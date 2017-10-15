@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
+        "outputFile": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt/values-pt.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 151
                 },
                 "from": {
-                    "file": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/values-pt/values-pt.xml",
+                    "file": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/values-pt/values-pt.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
