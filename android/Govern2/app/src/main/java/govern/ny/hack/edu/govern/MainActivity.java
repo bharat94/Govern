@@ -37,11 +37,15 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.ChildEventListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import butterknife.ButterKnife;
@@ -68,8 +72,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     static final int PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 0;
     Location mLastKnownLocation;
     LatLng mDefaultLocation;
-    float DEFAULT_ZOOM = 14.0f;
-    List<LatLng> latLngList = new ArrayList<LatLng>();
+    float DEFAULT_ZOOM = 17.0f;
+    List<LatLng> latLngList = Collections.synchronizedList(new ArrayList<LatLng>());
     private Unbinder bind;
 
     private DatabaseReference mDatabase;
@@ -133,6 +137,44 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         };
         bind = ButterKnife.bind(this);
+
+
+        mDatabase.child("GovernanceLocations").addChildEventListener(new ChildEventListener() {
+            @Override
+            public void onChildAdded(DataSnapshot dataSnapshot, String s) {
+                GovModel newPost = dataSnapshot.getValue(GovModel.class);
+                latLngList.add(new LatLng(newPost.getLatitude(), newPost.getLongitude()));
+                //updateMapUI();
+                Circle circle = mMap.addCircle(new CircleOptions()
+                        .center(new LatLng(newPost.getLatitude(),
+                                newPost.getLongitude()))
+                        .radius(50)
+                        .strokeColor(Color.argb(180, 0, 0, 255))
+                        .fillColor(Color.argb(70, 0, 0, 255)));
+            }
+
+            @Override
+            public void onChildChanged(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onChildRemoved(DataSnapshot dataSnapshot) {
+
+            }
+
+            @Override
+            public void onChildMoved(DataSnapshot dataSnapshot, String s) {
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+
+
     }
 
     @Override
@@ -315,13 +357,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Using a mock list of governor lat longs
         // start Mock
         fetchedList = new ArrayList<LatLng>();
-        fetchedList.add(new LatLng(1, 1));
-        fetchedList.add(new LatLng(2, 2));
-        fetchedList.add(new LatLng(3, 3));
-        fetchedList.add(new LatLng(4, 4));
-        fetchedList.add(new LatLng(5, 5));
-        fetchedList.add(new LatLng(6, 6));
-        fetchedList.add(new LatLng(7, 7));
+        fetchedList.add(new LatLng(40.812256, -73.962573));
+        fetchedList.add(new LatLng(40.806655, -73.965684));
         // end Mock
 
         this.latLngList = fetchedList;
@@ -331,11 +368,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     private void updateMapUI() {
+        Toast.makeText(MainActivity.this, "Hello : "+ this.latLngList, Toast.LENGTH_SHORT).show();
         for (LatLng latLng : this.latLngList) {
             Circle circle = mMap.addCircle(new CircleOptions()
-                    .center(new LatLng(this.mLastKnownLocation.getLatitude() + latLng.latitude,
-                            this.mLastKnownLocation.getLongitude() + latLng.longitude))
-                    .radius(10000)
+                    .center(new LatLng(latLng.latitude,latLng.longitude))
+                    .radius(100)
                     .strokeColor(Color.argb(180, 0, 0, 255))
                     .fillColor(Color.argb(70, 0, 0, 255)));
         }
@@ -352,19 +389,32 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         gm.setLatitude(latLng.latitude);
         gm.setLongitude(latLng.longitude);
         gm.setOwnerID(userID);
-        mDatabase.child("GovernanceLocations").child(latToBat(latLng)).push().setValue(gm);
+        mDatabase.child("GovernanceLocations").child(latToBat(latLng)).setValue(gm);
     }
 
     private String latToBat(LatLng latLng){
         if(latLng == null)
             return "";
-        String s1[] = (latLng.latitude+".").split(".");
-        String s2[] = (latLng.longitude+".").split(".");
+        String s1[] = (Double.toString(latLng.latitude)+".").split("\\.");
+        String s2[] = (Double.toString(latLng.longitude)+".").split("\\.");
         String res = "BAT";
         for(String s : s1)
-            res+=s+"BAT";
+            res += s+"BAT";
         for(String s : s2)
-            res+=s+"BAT";
+            res += s+"BAT";
+        return res;
+    }
+
+    private LatLng batToLat (String bat){
+        if(bat == null)
+            return mDefaultLocation;
+
+        String s[] = bat.split("BAT");
+
+        double d1 = Double.parseDouble(s[1]+"."+s[2]);
+        double d2 = Double.parseDouble(s[3]+"."+s[4]);
+
+        LatLng res = new LatLng(d1, d2);
         return res;
     }
 

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

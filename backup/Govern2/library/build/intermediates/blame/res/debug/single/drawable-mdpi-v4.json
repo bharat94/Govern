@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/vaidhyanathannarayanan/Desktop/Code/Hackathons/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/vaidhyanathannarayanan/.android/build-cache/c0eb73f6092bc01e07962bc6eeecf8a58505e5df/output/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    }
+]
