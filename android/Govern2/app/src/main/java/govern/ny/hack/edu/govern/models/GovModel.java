@@ -2,6 +2,7 @@ package govern.ny.hack.edu.govern.models;
 
 import com.google.firebase.database.IgnoreExtraProperties;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,7 +17,7 @@ public class GovModel {
     private List<String> issues;
 
     public GovModel() {
-
+        issues = new ArrayList<String>();
     }
 
     public double getLatitude() {

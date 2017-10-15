@@ -45,6 +45,9 @@ import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.MutableData;
+import com.google.firebase.database.Transaction;
+import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -220,9 +223,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_SIGN_IN) {
             if (resultCode == RESULT_OK) {
-                Toast.makeText(MainActivity.this, "User Signed In!", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "User Signed In!", Toast.LENGTH_SHORT).show();
             } else {
-                Toast.makeText(MainActivity.this, "Sign in cancelled", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(MainActivity.this, "Sign in cancelled", Toast.LENGTH_SHORT).show();
                 finish();
             }
         }
@@ -429,7 +432,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
     private void updateMapUI() {
-        Toast.makeText(MainActivity.this, "Hello : "+ this.latLngList, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(MainActivity.this, "Hello : "+ this.latLngList, Toast.LENGTH_SHORT).show();
         for (LatLng latLng : this.latLngList) {
             Circle circle = mMap.addCircle(new CircleOptions()
                     .center(new LatLng(latLng.latitude,latLng.longitude))
@@ -480,8 +483,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     }
 
     @Override
-    public void onFinishReportDialog(String value) {
-        Toast.makeText(MainActivity.this, "Submit clicked", Toast.LENGTH_SHORT).show();
+    public void onFinishReportDialog(String value, LatLng location) {
+        //Toast.makeText(MainActivity.this, "Submit clicked", Toast.LENGTH_SHORT).show();
+        submitReport(value, location);
+        Toast.makeText(MainActivity.this, "Report submitted", Toast.LENGTH_SHORT).show();
     }
 
     @OnClick(R.id.material_design_floating_action_menu_item2)
@@ -494,23 +499,66 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
         ft.addToBackStack(null);
 
-        // Create and show the dialog.
-        ReportDialogFragment newFragment = ReportDialogFragment.newInstance(mLastKnownLocation.getLatitude(), mLastKnownLocation.getLongitude());
-        newFragment.show(ft,"dialog");
+        LatLng govLoc = isAnyGovernerNearby();
+        if(govLoc!=null){
+            // Create and show the dialog.
+            ReportDialogFragment newFragment = ReportDialogFragment.newInstance(govLoc.latitude, govLoc.longitude);
+            newFragment.show(ft,"dialog");
+        }
+        else{
+            Toast.makeText(MainActivity.this, "Place Not governed by anyone, report not submitted!", Toast.LENGTH_LONG).show();
+        }
     }
 
     @OnClick(R.id.material_design_floating_action_menu_item1)
     public void onGovernClicked(View view){
         //Toast.makeText(MainActivity.this, "Govern Clicked", Toast.LENGTH_SHORT).show();
         if(mLastKnownLocation!=null) {
-            Toast.makeText(MainActivity.this, "trying to add new governor at : "+ mLastKnownLocation.getLatitude()+","+
-                    mLastKnownLocation.getLongitude(), Toast.LENGTH_SHORT).show();
+            //Toast.makeText(MainActivity.this, "trying to add new governor at : "+ mLastKnownLocation.getLatitude()+","+
+                    //mLastKnownLocation.getLongitude(), Toast.LENGTH_SHORT).show();
             addAsNewGoverner(new LatLng(mLastKnownLocation.getLatitude(),
                     mLastKnownLocation.getLongitude()));
         }
         else{
-            Toast.makeText(MainActivity.this, "Unable to fetch location", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(MainActivity.this, "Unable to fetch location", Toast.LENGTH_SHORT).show();
         }
     }
+
+    public synchronized LatLng isAnyGovernerNearby(){
+        for(LatLng ll : this.latLngList){
+            if(diff(ll, new LatLng(mLastKnownLocation.getLatitude(), mLastKnownLocation.getLongitude())) < 0.002){
+                return ll;
+            }
+        }
+        return null;
+    }
+
+    public double diff (LatLng l1, LatLng l2){
+        return Math.sqrt((l1.latitude - l2.latitude) * (l1.latitude - l2.latitude) +
+                (l1.longitude - l2.longitude) * (l1.longitude - l2.longitude));
+    }
+
+    public void submitReport(final String report, LatLng location){
+        mDatabase.child("GovernanceLocations").child(latToBat(location)).runTransaction(new Transaction.Handler() {
+            @Override
+            public Transaction.Result doTransaction(MutableData mutableData) {
+                GovModel govModel = mutableData.getValue(GovModel.class);
+                if(govModel.getIssues() == null){
+                    govModel.setIssues(new ArrayList<String>());
+                }
+                govModel.getIssues().add(report);
+
+                mutableData.setValue(govModel);
+                return Transaction.success(mutableData);
+            }
+
+            @Override
+            public void onComplete(DatabaseError databaseError, boolean b,
+                                   DataSnapshot dataSnapshot) {
+                // Transaction completed
+            }
+        });
+    }
+
 }
 

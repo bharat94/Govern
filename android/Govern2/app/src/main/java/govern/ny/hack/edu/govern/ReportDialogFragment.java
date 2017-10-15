@@ -12,6 +12,8 @@ import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.google.android.gms.maps.model.LatLng;
+
 public class ReportDialogFragment extends DialogFragment implements TextView.OnEditorActionListener {
 
     private static final String ARGS_LATITUDE = "args-latitutde";
@@ -60,13 +62,13 @@ public class ReportDialogFragment extends DialogFragment implements TextView.OnE
     public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
         // Return input text to activity
         ReportEditTextListener activity = (ReportEditTextListener) getActivity();
-        activity.onFinishReportDialog(mEditText.getText().toString());
+        activity.onFinishReportDialog(mEditText.getText().toString(), new LatLng(mLatitude, mLogitude));
         this.dismiss();
         return true;
     }
 
 
     public interface ReportEditTextListener {
-        void onFinishReportDialog(String value);
+        void onFinishReportDialog(String value, LatLng location);
     }
 }
