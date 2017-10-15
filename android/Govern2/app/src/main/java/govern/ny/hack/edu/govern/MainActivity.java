@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mUserModel = new UserModel();
 
 
-        FloatingActionButton governBtn = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item3);
+
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);

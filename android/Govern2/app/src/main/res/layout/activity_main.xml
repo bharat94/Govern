@@ -42,9 +42,12 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:textSize="18sp"
+                android:background="@android:color/darker_gray"
                 android:fontFamily="sans-serif"
                 android:paddingLeft="10dp"
+                android:textColor="@color/colorPrimary"
                 android:layout_width="match_parent"
+                android:textStyle="italic"
                 android:text="List of all the places goverend by me"
                 android:layout_height="wrap_content"
                 />
@@ -58,16 +61,17 @@
     <com.github.clans.fab.FloatingActionMenu
         android:id="@+id/material_design_android_floating_action_menu"
         android:layout_width="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_marginRight="10dp"
         android:layout_height="wrap_content"
         fab:menu_animationDelayPerItem="55"
+        android:layout_marginBottom="65dp"
         fab:menu_backgroundColor="@android:color/transparent"
         fab:menu_buttonSpacing="0dp"
-        fab:menu_colorNormal="#da3c2f"
-        fab:menu_colorPressed="#dc4b3f"
-        fab:menu_colorRipple="#99d4d4d4"
+        fab:menu_colorNormal="#536DFE"
+        fab:menu_colorPressed="#5C6BC0"
+        fab:menu_colorRipple="#9FA8DA"
         fab:menu_fab_size="normal"
         fab:menu_icon="@drawable/fab_add"
         fab:menu_labels_colorNormal="#333"
@@ -85,7 +89,7 @@
         fab:menu_labels_singleLine="false"
         fab:menu_labels_textColor="#f2f1f1"
         fab:menu_labels_textSize="15sp"
-        fab:menu_openDirection="down"
+        fab:menu_openDirection="up"
         fab:menu_shadowColor="#66aff198"
         fab:menu_shadowRadius="4dp"
         fab:menu_shadowXOffset="1dp"
@@ -108,13 +112,6 @@
             fab:fab_label="Report"
             fab:fab_size="mini" />
 
-        <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/material_design_floating_action_menu_item3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:scaleType="centerInside"
-            android:src="@drawable/if_list_293685"
-            fab:fab_label="List of Places"
-            fab:fab_size="mini" />
+
     </com.github.clans.fab.FloatingActionMenu>
 </RelativeLayout>

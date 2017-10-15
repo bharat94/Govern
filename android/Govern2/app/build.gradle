@@ -39,7 +39,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
     compile 'com.google.android.gms:play-services-maps:11.4.2'
     testCompile 'junit:junit:4.12'
-
     compile 'com.github.clans:fab:1.6.4'
     compile project(':library')
     //firebase
