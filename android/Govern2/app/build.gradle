@@ -47,4 +47,8 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:11.4.2'
     compile 'com.google.android.gms:play-services-auth:11.4.2'
     compile 'com.firebaseui:firebase-ui-auth:3.0.0'
+
+    //ButterKnife
+    compile 'com.jakewharton:butterknife:8.5.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
 }
