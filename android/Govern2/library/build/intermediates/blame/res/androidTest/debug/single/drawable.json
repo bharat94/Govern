@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/drawable/notification_bg.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/atripathi/.android/build-cache/c7c64f2c7eeb771d75cad2747f931ce75c4c90af/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/atripathi/.android/build-cache/c7c64f2c7eeb771d75cad2747f931ce75c4c90af/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/below_shadow.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/bundles/debug/res/drawable/below_shadow.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/atripathi/.android/build-cache/c7c64f2c7eeb771d75cad2747f931ce75c4c90af/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/above_shadow.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/bundles/debug/res/drawable/above_shadow.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg.xml",
+        "source": "/Users/atripathi/.android/build-cache/c7c64f2c7eeb771d75cad2747f931ce75c4c90af/output/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/above_shadow.xml",
+        "source": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/bundles/debug/res/drawable/above_shadow.xml"
     },
     {
-        "merged": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/vaibhavshukla/Documents/HackNY/Govern/android/Govern2/library/build/intermediates/exploded-aar/com.android.support/support-compat/26.0.2/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/res/merged/androidTest/debug/drawable/below_shadow.xml",
+        "source": "/Users/atripathi/Govern/android/Govern2/library/build/intermediates/bundles/debug/res/drawable/below_shadow.xml"
     }
 ]
