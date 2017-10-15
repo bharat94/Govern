@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.location.Location;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import com.github.clans.fab.FloatingActionButton;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -35,10 +36,15 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import butterknife.OnClick;
+import govern.ny.hack.edu.govern.models.GovModel;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback {
 
@@ -59,6 +65,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     float DEFAULT_ZOOM = 14.0f;
     List<LatLng> latLngList = new ArrayList<LatLng>();
 
+    private DatabaseReference mDatabase;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,6 +74,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_main);
         mFirebaseauth = FirebaseAuth.getInstance();
         mUserModel = new UserModel();
+
+
+        FloatingActionButton governBtn = (FloatingActionButton) findViewById(R.id.material_design_floating_action_menu_item3);
+        governBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(mLastKnownLocation!=null) {
+                    Toast.makeText(MainActivity.this, "trying to add new governor at : "+ mLastKnownLocation.getLatitude()+","+
+                            mLastKnownLocation.getLongitude(), Toast.LENGTH_SHORT).show();
+                    addAsNewGoverner(new LatLng(mLastKnownLocation.getLatitude(),
+                            mLastKnownLocation.getLongitude()));
+                }
+                else{
+                    Toast.makeText(MainActivity.this, "Unable to fetch location", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -81,11 +107,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         // Construct a FusedLocationProviderClient.
         mFusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
 
+        // Create a reference to the firebase database
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
 
         // Turn on the My Location layer and the related control on the map.
         updateLocationUI();
-
-
 
         mAuthstateListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -186,6 +213,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mMap.getUiSettings().setMyLocationButtonEnabled(true);
 
     }
+
 
 
     private void getLocationPermission() {
@@ -320,6 +348,33 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     .strokeColor(Color.argb(180, 0, 0, 255))
                     .fillColor(Color.argb(70, 0, 0, 255)));
         }
+    }
+
+
+    private void addAsNewGoverner(LatLng latLng){
+        addNewGoverner(mUserModel.getmUid(), latLng);
+    }
+
+    private void addNewGoverner(String userID, LatLng latLng){
+        GovModel gm = new GovModel();
+        gm.setIssues(new ArrayList<String>());
+        gm.setLatitude(latLng.latitude);
+        gm.setLongitude(latLng.longitude);
+        gm.setOwnerID(userID);
+        mDatabase.child("GovernanceLocations").child(latToBat(latLng)).push().setValue(gm);
+    }
+
+    private String latToBat(LatLng latLng){
+        if(latLng == null)
+            return "";
+        String s1[] = (latLng.latitude+".").split(".");
+        String s2[] = (latLng.longitude+".").split(".");
+        String res = "BAT";
+        for(String s : s1)
+            res+=s+"BAT";
+        for(String s : s2)
+            res+=s+"BAT";
+        return res;
     }
 
 }
